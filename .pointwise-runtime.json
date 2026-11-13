@@ -4,12 +4,14 @@
   "setup": [],
   "verify": [
     "python3",
-    "archive.py",
-    "verify"
+    "analysis.py",
+    "verify",
+    "data/incident.json"
   ],
   "demo": [
     "python3",
-    "archive.py",
-    "demo"
+    "analysis.py",
+    "demo",
+    "data/incident.json"
   ]
 }
