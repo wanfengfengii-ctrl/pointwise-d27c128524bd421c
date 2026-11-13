@@ -1,0 +1,25 @@
+{
+  "slots": 2,
+  "burst": 3,
+  "tick_limit": 100,
+  "requests": [
+    {
+      "id": "notice-01",
+      "size": 4096,
+      "chunk": 4096,
+      "pad": 0,
+      "fill": "A",
+      "policy": "full",
+      "limit": 0
+    },
+    {
+      "id": "notice-02",
+      "size": 98304,
+      "chunk": 8192,
+      "pad": 0,
+      "fill": "B",
+      "policy": "full",
+      "limit": 0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "argv": [
+      "python3",
+      "replay.py",
+      "incident"
+    ],
+    "exit_code": 1,
+    "marker": "H2_COLLECTION_STALLED",
+    "stdout_sha256": "065ff96f4ab17d6915592b4e162c3359f9bb37f0a8de894ab6819912df3fc476"
+  },
+  {
+    "argv": [
+      "python3",
+      "replay.py",
+      "incident"
+    ],
+    "exit_code": 1,
+    "marker": "H2_COLLECTION_STALLED",
+    "stdout_sha256": "065ff96f4ab17d6915592b4e162c3359f9bb37f0a8de894ab6819912df3fc476"
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "slots": 2,
+  "burst": 3,
+  "tick_limit": 400,
+  "requests": [
+    {
+      "id": "notice-01",
+      "size": 4096,
+      "chunk": 4096,
+      "pad": 31,
+      "fill": "A",
+      "policy": "full",
+      "limit": 0
+    },
+    {
+      "id": "notice-02",
+      "size": 24576,
+      "chunk": 8192,
+      "pad": 255,
+      "fill": "B",
+      "policy": "preview",
+      "limit": 8192
+    },
+    {
+      "id": "notice-03",
+      "size": 24576,
+      "chunk": 8192,
+      "pad": 255,
+      "fill": "C",
+      "policy": "preview",
+      "limit": 8192
+    },
+    {
+      "id": "notice-04",
+      "size": 24576,
+      "chunk": 8192,
+      "pad": 255,
+      "fill": "D",
+      "policy": "preview",
+      "limit": 8192
+    },
+    {
+      "id": "notice-05",
+      "size": 24576,
+      "chunk": 8192,
+      "pad": 255,
+      "fill": "E",
+      "policy": "preview",
+      "limit": 8192
+    },
+    {
+      "id": "notice-06",
+      "size": 262144,
+      "chunk": 8192,
+      "pad": 255,
+      "fill": "F",
+      "policy": "full",
+      "limit": 0
+    },
+    {
+      "id": "notice-07",
+      "size": 4096,
+      "chunk": 4096,
+      "pad": 31,
+      "fill": "G",
+      "policy": "full",
+      "limit": 0
+    },
+    {
+      "id": "notice-08",
+      "size": 2048,
+      "chunk": 2048,
+      "pad": 31,
+      "fill": "H",
+      "policy": "full",
+      "limit": 0
+    }
+  ]
+}
